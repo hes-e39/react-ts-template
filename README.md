@@ -6,7 +6,7 @@ Open a terminal and navigate to the root of this repo. Run
 npm install
 ```
 
-Open VSCode and installed the recommended extensions. You might need to restart VSCode in order for extensions to take in effect. Restart by running `CMD+Shift+P` and search for "Reload Window", hit `Enter`.
+Install and open [VSCode](https://code.visualstudio.com/?wt.mc_id=vscom_downloads). Install the recommended extensions that pop up in the bottom right. You might need to restart VSCode in order for extensions to take in effect. Restart by running `CMD+Shift+P` and search for "Reload Window", hit `Enter`.
 
 ## Run Dev Environment
 
