@@ -14,10 +14,20 @@
 
 **It is important that you follow these steps in the correct order:**
 
-1. Add `"homepage": "https://hes-e39.github.io/<repo>/"` to `package.json`. Where `<repo>`, is the name of this repo.
-2. Push to GH
-3. Wait until action finishes, this will create a new branch `gh-pages`
+1. Open `package.json` and update the `"homepage"` key with your repo information. It should change from:
+
+`"homepage": "https://hes-e39.github.io/react-ts-template/"`
+
+to
+
+`"homepage": "https://hes-e39.github.io/<your repo>/"`
+
+For this assignment, the repo name will be `test-deploy-<your username>`.
+
+Make sure the trailing `/` is there!
+
+2. Push changes to GH
+3. Wait until actions finish, this will create a new branch `gh-pages` and run the deployment
 4. In your GH repo: Settings -> Pages -> Build and deployment -> Branch -> gh-pages
-5. Once all GH actions have completed, you can navigate to `https://hes-e39.github.io/<repo>/` and you should see your app.
 
 You might have to hard refresh the browser page when pushing multiple updates to GH in order to reflect the most recent changes.
