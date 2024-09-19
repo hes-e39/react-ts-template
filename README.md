@@ -22,9 +22,7 @@ to
 
 `"homepage": "https://hes-e39.github.io/<your repo>/"`
 
-For this assignment, the repo name will be `test-deploy-<your username>`.
-
-Make sure the trailing `/` is there!
+If you created this repo in github classrooms, the repo name should have your username at the end of it. Make sure to copy the whole thing. Also make sure the trailing `/` follows after your repo name.
 
 2. Push changes to GH
 3. Wait until actions finish, this will create a new branch `gh-pages` and run the deployment
