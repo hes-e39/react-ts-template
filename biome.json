@@ -16,15 +16,17 @@
             "enabled": false
         }
     },
+    "files": {
+        "include": ["src/**/*.ts", "src/**/*.tsx"],
+        "ignore": ["node_modules", "dist", "public", "./.vscode"]
+    },
     "formatter": {
         "enabled": true,
         "indentStyle": "space",
         "indentWidth": 4,
-        "lineWidth": 200,
-        "ignore": ["node_modules", "dist", "./.vscode"]
+        "lineWidth": 200
     },
     "linter": {
-        "ignore": ["node_modules", "dist", "./.vscode"],
         "enabled": true,
         "rules": {
             "recommended": true,
