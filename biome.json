@@ -16,10 +16,6 @@
             "enabled": false
         }
     },
-    "files": {
-        "include": ["src/**/*.ts", "src/**/*.tsx"],
-        "ignore": ["node_modules", "dist", "public", "./.vscode"]
-    },
     "formatter": {
         "enabled": true,
         "indentStyle": "space",
